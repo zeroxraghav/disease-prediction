@@ -1,6 +1,6 @@
 # Disease Prediction ML Project
 
-This project predicts diseases based on symptoms using a machine learning model. It includes a Jupyter notebook for model training and a FastAPI backend for serving predictions.
+This project predicts diseases based on symptoms using a machine learning model. It includes a Jupyter notebook for model training and a FastAPI backend for serving predictions. The api has been deployed to "Render", here is the endpoint for the api. [https://api-deploy-6wmx.onrender.com/predict](Deployed API)
 
 ---
 
@@ -82,16 +82,22 @@ uvicorn app:app --reload
   }
   ```
 
-- **Example cURL:**
-  ```sh
-  curl -X POST "http://127.0.0.1:8000/predict" \
-    -H "Content-Type: application/json" \
-    -d "{\"input_data\": {\"itching\": 1, \"skin_rash\": 0}}"
-  ```
+## 📱 3. Flutter Frontend (Android)
 
----
+The `Frontend/` directory contains a Flutter app that:
 
-## 3. Requirements
+- ✅ Allows users to select symptoms
+- 🔄 Sends data to the FastAPI backend
+- 📊 Displays the predicted disease based on the model's response
+
+### 🔗4. Demo & Downloads
+
+- 📽️ **[Watch Demo Video](https://drive.google.com/file/d/1hq1cW7ySRiff-v5SWNcGR4JxKI_KCjv3/view?usp=drivesdk)**
+- 📲 **[Download Android APK](https://drive.google.com/file/d/1iQkpEizHPNYMYtQt6rHM7qgLI85h_9vN/view?usp=drivesdk)**
+
+> 🔁 _Make sure to replace the above links with your actual demo video and APK download URL._
+
+## 5. Requirements
 
 - Python 3.8+
 - See `Backend/requirements.txt` for backend dependencies:
@@ -99,13 +105,5 @@ uvicorn app:app --reload
   - uvicorn
   - scikit-learn
   - pandas
-
----
-
-## 4. Notes
-
-- The model expects the same features as in `features.pkl`.
-- If you retrain or change feature selection, regenerate and copy both `model.pkl` and `features.pkl` to the `Backend` folder.
-- For any issues, check the error messages returned by the API.
 
 ---
