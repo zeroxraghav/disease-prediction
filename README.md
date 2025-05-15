@@ -54,7 +54,7 @@ The backend is a FastAPI app that loads the trained model and features, and expo
 uvicorn app:app --reload
 ```
 
-- The API will be available at: [http://127.0.0.1:8000](http://127.0.0.1:8000)
+- You can then test the api via swagger ui by going on this link "http://127.0.0.1:8000/docs"
 
 ### `/predict` Endpoint
 
@@ -94,8 +94,6 @@ The `Frontend/` directory contains a Flutter app that:
 
 - 📽️ **[Watch Demo Video](https://drive.google.com/file/d/1hq1cW7ySRiff-v5SWNcGR4JxKI_KCjv3/view?usp=drivesdk)**
 - 📲 **[Download Android APK](https://drive.google.com/file/d/1iQkpEizHPNYMYtQt6rHM7qgLI85h_9vN/view?usp=drivesdk)**
-
-> 🔁 _Make sure to replace the above links with your actual demo video and APK download URL._
 
 ## 5. Requirements
 
