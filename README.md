@@ -1,6 +1,6 @@
 # Disease Prediction ML Project
 
-This project predicts diseases based on symptoms using a machine learning model. It includes a Jupyter notebook for model training and a FastAPI backend for serving predictions. The api has been deployed to "Render", here is the endpoint for the api. [https://api-deploy-6wmx.onrender.com/predict](Deployed API)
+This project predicts diseases based on symptoms using a machine learning model. It includes a Jupyter notebook for model training and a FastAPI backend for serving predictions. The api has been deployed to "Render", here is the endpoint for the api. **[Deployed API: ](https://api-deploy-6wmx.onrender.com/predict)**
 
 ---
 
