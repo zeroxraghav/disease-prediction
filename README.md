@@ -92,7 +92,7 @@ The `Frontend/` directory contains a Flutter app that:
 
 ### 🔗4. Demo & Downloads
 
-- 📽️ **[Watch Demo Video](https://drive.google.com/file/d/1hq1cW7ySRiff-v5SWNcGR4JxKI_KCjv3/view?usp=drivesdk)**
+- 📽️ **[Watch Demo Video](https://drive.google.com/file/d/1lVsO54KkphsJP_K_sQZgVVxHs4GijAh4/view?usp=drivesdk)**
 - 📲 **[Download Android APK](https://drive.google.com/file/d/1iQkpEizHPNYMYtQt6rHM7qgLI85h_9vN/view?usp=drivesdk)**
 
 ## 5. Requirements
